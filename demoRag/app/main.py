@@ -1,10 +1,10 @@
 """
-main.py - Entry point for VerdictAI backend server
+main.py - Entry point for demoRag backend server
 
 Author: justin.m
 Date: 2025-07-23
 
-This module initializes the FastAPI server for VerdictAI. 
+This module initializes the FastAPI server for demoRag. 
 Currently supports basic health check, document upload simulation,
 and query handling with placeholder response.
 """
@@ -21,8 +21,8 @@ os.makedirs("data/raw", exist_ok=True)
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="VerdictAI",
-    description="Backend API for VerdictAI — RAG-powered legal assistant",
+    title="demoRag",
+    description="Backend API for demoRag — RAG-powered legal assistant",
     version="0.1.0"
 )
 
