@@ -1,0 +1,29 @@
+# FastAPI & web server
+fastapi[all]
+uvicorn
+
+# Ingestion & chunking
+pdfminer.six
+python-docx
+beautifulsoup4
+pymupdf
+
+# Embeddings & LLMs
+transformers
+sentence-transformers
+accelerate
+torch
+huggingface-hub
+
+# Vector store
+faiss-cpu
+
+# Data processing
+numpy
+pandas
+tqdm
+
+# Utilities
+python-dotenv
+pydantic
+requests
